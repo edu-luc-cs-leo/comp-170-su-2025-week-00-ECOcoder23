@@ -16,9 +16,16 @@
 """
 # Problem 2
 """
-Your solution goes here
-
-
+1. calculate_total, is a valid function name as it starts with a letter and contains only either letters or underscores (snake case convention)
+2. 3rd_function, is an invalid function name as it begins with a number (and not either a letter or underscore)
+3. print_values, is a valid function name as it begins with a letter and contains only letters and undercores
+4. find-values, is an invalid function name as is contains the special character "-"
+5. def, is an invalid function name as it uses one of Python's reserved words 
+6. updateProfile, is an invalid function name as the words "update" and "Profile" are not separated by an underscore
+7. my_function, is a valid function name as it begins with a letter and contains only letters and underscores
+8. try, is an invalid function name as uses one of Python's reserved words
+9. init_data, is a valid function name as it begins with a letter and contains only letter and underscores
+10. value@function, is an invalid funtion name as it contains the special character "@" and does not separate the words "value" and "function" with an underscore
 """
 # Problem 3
 """
