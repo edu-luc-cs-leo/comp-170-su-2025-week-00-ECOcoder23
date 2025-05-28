@@ -26,12 +26,19 @@
 8. try, is an invalid function name as uses one of Python's reserved words
 9. init_data, is a valid function name as it begins with a letter and contains only letter and underscores
 10. value@function, is an invalid funtion name as it contains the special character "@" and does not separate the words "value" and "function" with an underscore
-"""
+""" 
 # Problem 3
 """
-Your solution goes here
-
-
+1. "True and False" evaluates to "False" because the "and" logical operation stipulates that both inputs must be true for the output to equal true
+2. "5 > 3 or 'apple' < 'banana'" is invalid because "'apple' < 'banana'" cannot be evaluated to equal true or false as "apple" and "banana" are not numerical values
+3. "not 10 <= 20" evaluates to "False" as it uses the "not" logical operation which outputs the opposite of the input (which in this case is "True")
+4. "True or 5 = 4" evaluates to "True" as is uses the "and" logical operation which stipulates that either input must be "True" for the output to be "True"
+5. "'apple' != 'orange' and 5" is an invalid boolean expression as "'apple' != 'orange'" cannot be evaluated to be either a "True" or "False" input
+6. "3 < 5 not True" is invalid because it incorrectly uses the "not" logical operation
+7. "False == (3 > 4)" evaluates to "True" because "3 > 4" equals to "False" is a true statement
+8. "10 <= '10'" evaluates to "False" as, numerically, "10" is equivalent "'10'"
+9. "True or not False" evaluates to "True" because the "or" logical operation stipulates that either input be "True" for the output to also be "True"
+10. "5 and or 4" is an invalid boolean expression as the logical operations "and" and "or" are mutually exclusive and, therefore, cannot be used in conjunction with one another simultaneously
 """
 #-----------------------------------------------------------------------------
 # Homework 0
